@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding:  0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 16px;
+    background-image: url(./assets/fundoo.png);
+    background-size: cover;
+}
+.card{
+    background-color: white;
+    width: 280px;
+    height: 360px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaa;
+}
+
+.card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+    gap: 10px;
+    
+}
+.card img{
+    height: 180px;
+    width: 180px;
+    border-radius: 12px 12px 0 0;
+    padding-left: 60px;
+}
+
+.card h1{
+    font-size: 30px;
+    color: #000000;
+}
+.card h2{
+    font-size: 20px;
+    color: #aaa;
+}
+.card button1{
+    background-color: #00ccff;
+    height: 20px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-align: center;
+}
+.card button2{
+    background-color: #28d122;
+    height: 20px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-align: center;
+}
+
+@media (max-width: 800px){
+    body{
+        display: flex;
+        flex-direction: wrap;
+        justify-content: center;
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+        gap: 24px;
+        background-image: url(./assets/fundo.png);
+        background-size: cover;
+    }
+}
